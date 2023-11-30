@@ -1,0 +1,43 @@
+@import 'AppRoot/App.scss';
+
+.signin-background {
+  background-color: $primary-white-color;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+
+  img {
+    width: 50%;
+    margin-right: 50px;
+  }
+}
+
+.signin-container {
+  background-color: white;
+  display: inline-block;
+  width: 450px;
+  height: 500px;
+  border-radius: 8px;
+  padding: 50px 20px 50px 20px;
+  box-sizing: border-box;
+}
+
+.signin-title {
+  font-weight: 600;
+}
+
+.signin-input {
+  margin: 10px 0;
+}
+
+.ant-btn {
+  &.signin-button  {
+    margin: 10px 0;
+  }
+  &.go-signup {
+    color: $primary-green-color;
+    padding: 0;
+  }
+}

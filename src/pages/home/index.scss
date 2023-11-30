@@ -1,0 +1,24 @@
+@import 'AppRoot/App.scss';
+
+.header-logo {
+  width: 150px;
+}
+
+.new-app-action {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.home-createapp {
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  bottom: 0;
+}
+
+.code-notification {
+  >span {
+    color: $primary-green-color;
+  }
+}
